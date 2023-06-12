@@ -1,0 +1,110 @@
+/* SeniorList.css */
+
+.senior-list-container {
+  background-color: #333333;
+  padding: 20px;
+}
+
+.system-title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.senior-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.senior-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.senior-item-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.senior-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.senior-item-details {
+  flex: 1;
+}
+
+.senior-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6a0dad;
+}
+
+.purple-text {
+  color: #6a0dad;
+}
+
+.senior-item-info {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.senior-item-status {
+  font-size: 14px;
+  color: #666666;
+}
+
+.senior-item-status {
+  font-size: 24px; /* 이모티콘 크기 조정을 위한 기본 글자 크기 */
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.emoticon {
+  font-size: 32px; /* 이모티콘 크기 조정 */
+}
+
+.emotion-text {
+  font-weight: 900; /* 글자를 두껍게 설정 */
+}
+
+.senior-item-message {
+  color: #888;
+  font-size: 10px;
+}
+
+.emotion-label {
+  color: #888;
+}
+
+body.login-bg {
+  background-image: url('E:\졸작\senior-management-web\senior.jpg');
+  background-size: cover;
+  background-position: center top 0px;
+  background-repeat: no-repeat;
+}
+
+body.dark-bg {
+  background-color: #333333;
+}

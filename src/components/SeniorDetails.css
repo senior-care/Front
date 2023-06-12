@@ -1,0 +1,105 @@
+/* src/components/SeniorDetails.css */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 45%; /* 노인 기본 정보와 질병 정보를 동일한 너비로 조정 */
+  }
+  
+  /* SeniorDetails.css */
+.senior-details-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.senior-details-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.custom-calendar {
+  margin-top: 20px;
+}
+
+/* SeniorList.css */
+.senior-list-container {
+  margin-top: 20px;
+}
+
+.senior-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.senior-list {
+  list-style: none;
+  padding: 0;
+}
+
+.senior-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.senior-item-point {
+  width: 8px;
+  height: 8px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.senior-item-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.senior-item-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.senior-item-details {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.senior-item-status {
+  font-size: 14px;
+}
+
+body {
+  background-image: white; 
+}

@@ -1,0 +1,27 @@
+/* src/pages/SeniorDetailPage.css */
+
+.back-button {
+    display: inline-block;
+    background-color: #ccc;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+    right: -1050px;
+  }
+  
+
+  .back-button {
+    position: fixed;
+    top: 1cm; /* 버튼의 상단 여백 설정 */
+    right: 1cm; /* 버튼의 오른쪽 여백 설정 */
+  }
+  
+  /* 600px 이하일 때 버튼의 위치 조정 */
+  @media (max-width: 600px) {
+    .back-button {
+      right: initial; /* 기존의 오른쪽 여백 초기화 */
+      left: 1cm; /* 버튼의 왼쪽 여백 설정 */
+    }
+  }
