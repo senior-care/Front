@@ -1,0 +1,35 @@
+{
+  "seniors" : [ {
+       "no": "1", 
+       "name": "문상",
+       "gender": "남",
+       "birth": "19991229",
+       "major_phone": "01031106701",
+       "minor_phone": "01031106701",
+       "state": "화남" },
+       {
+        "no": "2", 
+        "name": "문상",
+        "gender": "남",
+        "birth": "19991229",
+        "major_phone": "01031106701",
+        "minor_phone": "01031106701",
+        "state": "슬픔" },
+        {
+          "no": "3",  
+          "name": "문상",
+          "gender": "남",
+          "birth": "19991229",
+          "major_phone": "01031106701",
+          "minor_phone": "01031106701",
+          "state": "기쁨" },
+          {
+            "no": "4", 
+            "name": "문상",
+            "gender": "남",
+            "birth": "19991229",
+            "major_phone": "01031106701",
+            "minor_phone": "01031106701",
+            "state": "상태 없음" }
+  ]
+}
